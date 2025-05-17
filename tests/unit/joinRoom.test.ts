@@ -1,4 +1,4 @@
-import { handler } from './joinRoomHandler'; // update the path if needed
+import { handler } from '../../modules/joinRoom';
 import { DynamoDBClient } from '@aws-sdk/client-dynamodb';
 import { DynamoDBDocument, QueryCommand, PutCommand } from '@aws-sdk/lib-dynamodb';
 import { ApiGatewayManagementApiClient, PostToConnectionCommand } from '@aws-sdk/client-apigatewaymanagementapi';

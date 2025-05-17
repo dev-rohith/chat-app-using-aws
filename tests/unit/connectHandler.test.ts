@@ -33,7 +33,7 @@ describe('connectHandler', () => {
       },
     };
 
-    sendMock.mockResolvedValue({}); // mock success
+    sendMock.mockResolvedValue({}); 
 
     const res = await handler(event);
 

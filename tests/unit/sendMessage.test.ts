@@ -1,4 +1,4 @@
-import { handler } from './sendMessageHandler'; // update path if needed
+import { handler } from '../../modules/sendMessage'; 
 import { DynamoDBClient } from '@aws-sdk/client-dynamodb';
 import { DynamoDBDocument, QueryCommand, PutCommand } from '@aws-sdk/lib-dynamodb';
 import { ApiGatewayManagementApi, PostToConnectionCommand } from '@aws-sdk/client-apigatewaymanagementapi';
